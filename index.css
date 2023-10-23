@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif; /* Simplified font choice */
+    text-align: center;
+    background-image: url("yarn.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat; /* Added this line to avoid image repetition */
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; /* Centered the container vertically */
+    background-color: aqua;
+}
+
+.container {
+    max-width: 40%; /* Adjusted for better appearance on wider screens */
+    padding: 5rem; /* Added some internal padding for spacing */
+    background: rgba(255, 255, 255, 0.9); /* Slight opacity for readability against the background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px;
+   border-color: black;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;  
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 15px 20px; /* Increased padding for a chunkier button */
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    margin: 10px 0; /* Increased margin for better spacing */
+    border-radius: 5px;
+    cursor: pointer; /* Indicates the button can be clicked */
+    transition: all 0.3s; /* Smooth transition for hover effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+button:hover {
+    transform: scale(1.05); /* Slightly enlarge the button when hovered for interactivity */
+}
+
+#increment-btn {
+    background: #2C2891;
+    border: 1px solid black;
+}
+
+#save-btn {
+    background: #1C7947;
+    border: 1px solid black;
+}
+
+#save-el {
+    color: black;
+    font-weight: bold;
+}
